@@ -105,16 +105,8 @@ onMounted(() => {
 
   // 控制台输出
   const styleTitle1 = "font-size: 20px;font-weight: 600;color: rgb(244,167,89);";
-  const styleTitle2 = "font-size:12px;color: rgb(244,167,89);";
   const styleContent = "color: rgb(30,152,255);";
   const title1 = "Quarterの主页";
-  const title2 = `
-    ____                   _         _______ _                
-  / __ \                 | |       |__   __(_)               
- | |  | |_   _  __ _ _ __| |_ ___ _ __| |   _ _ __ ___   ___ 
- | |  | | | | |/ _` | '__| __/ _ \ '__| |  | | '_ ` _ \ / _ \
- | |__| | |_| | _(| | |  | ||  __/ |  | |  | | | | | | |  __/
-  \___\_\\__,_|\__,_|_|   \__\___|_|  |_|  |_|_| |_| |_|\___|`;
   const content = `\n\n版本: ${config.version}\n主页: ${config.home}\nGithub: ${config.github}`;
   console.info(`%c${title1} %c${title2} %c${content}`, styleTitle1, styleTitle2, styleContent);
 });
